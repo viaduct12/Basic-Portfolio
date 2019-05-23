@@ -5,32 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Contact</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body background="assets/images/full-bloom.png">
   
-<header class='masthead'>
-  <p class='masthead-intro'>Lawrence Fiesta</p>
-  
-  <nav>
-    <a href="index.html">About</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+<nav>
+  <h1>Lawrence Fiesta</h1>
+  <ul>
+    <li><a href="index.html">About</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
 
-</header>
-
-<section class="contact">
-  <h1>Contact</h1>
-
-  <form action="">
-
-    Name: <br><input type="text" name="fullname"><br>
-    Email: <br><input type="text" name="email"><br>
-    Message: <br><input class="messageBox" type="text" name="message"><br>  
-    <input type="submit" name="submit">
-
-  </form>
-
-</section>
-</body>
-</html>
+    <div class="container">
+      <header>
+        <h1>Contact</h1>
+      </header>
+      <hr>
+      <section>
+        <form action="" method="post">
+          <div>
+            <h3>Name:</h3>
+            <input type="text" id="name" name="user_name" placeholder="Full Name">
+          </div>
+          <div>
+            <h3>Email:</h3>
+            <input type="email" id="mail" name="user_mail"placeholder="something@gmail.com">
+          </div>
+          <div>
+            <h3>Message:</h3>
+            <textarea name="user_message" id="msg"></textarea>
+          </div>
+        </form>
+        <button type='button'>Submit</button>
+      </section>
+    </div>
+    </body>
+    
+    </html>
